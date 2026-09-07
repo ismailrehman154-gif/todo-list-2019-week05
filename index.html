@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://kit.fontawesome.com/a20baee24f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titan+One&display=swap" rel="stylesheet">
+</head>
+<body>
+   <section class="container">
+    <div class="todo-app">
+        <h1>To-Do List</h1>
+        <section class="stat-container">
+            <div class="details">
+                <h3>Keep it up!</h3>
+                <div id="progressbar">
+                    <div id="progress"> </div>
+                </div>
+            </div>
+            <div class="stats-number">
+                <p id="numbers"> 0 / 0</p>
+            </div>
+        </section>
+        <form class="input-area">
+            <input type="text" placeholder="Add a new task..." id="taskInput">
+            <button type="submit" id="addTaskButton"><i class="fa-solid fa-plus"></i></button>
+        </form>
+        <div id="todos-container">
+            <ul id="taskList">
+                <!-- <li>CSSnippets</li>
+                <li>HTML</li>
+                <li>JavaScript</li> -->
+            </ul>
+            <!-- <img src="https://media.istockphoto.com/id/1245558318/vector/hand-drawn-doodle-clipboard-with-check-mark-sign-icon-illustration-line-art.jpg?s=612x612&w=0&k=20&c=MdNp4WvAbIuTKrxgRlWQxlBbvE7G7FAQ_vNTKD4b-M4=" alt="empty"> -->
+        </div>
+    </div>
+   </section>
+    
+   
+
+   
+    <script src="js/main.js"></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@4.4.0/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
