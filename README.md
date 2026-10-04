@@ -1,22 +1,9 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# To-Do List
 
-### Goal: Build a Simple Todo List
+A to-do list with a progress bar that judges you. Add tasks, check them off, watch the bar fill up. It even cheers you on with a "Keep it up!" when you're on a roll.
 
-### How to submit your code for review:
+![To-Do List screenshot](screenshot.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+The hardest part was the progress bar math. Every add, delete, check, and uncheck has to recount completed vs total and redraw the bar, or it starts lying to you. Simple division, but it has to run at exactly the right moments.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Built with HTML, CSS, and vanilla JavaScript. My code is on the `answer` branch.
