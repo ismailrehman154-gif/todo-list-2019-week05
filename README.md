@@ -2,6 +2,8 @@
 
 A to-do list with a progress bar that judges you. Add tasks, check them off, watch the bar fill up. Finish everything and you get a confetti storm. It even remembers your list after you close the tab.
 
+**Live site:** https://todo-list-2019-week05.vercel.app
+
 ![To-Do List screenshot](screenshot.jpg)
 
 ## How the code works
